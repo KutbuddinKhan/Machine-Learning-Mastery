@@ -5,8 +5,8 @@
 
 Feature Engineering is a critical step in the machine learning pipeline that involves transforming raw data into features that better represent the underlying problem to the predictive models. The goal is to improve the performance and accuracy of machine learning models by creating new features or modifying existing ones.
 
-(https://github.com/KutbuddinKhan/Machine-Learning-Mastery/blob/main/9_Feature_Engineering/Feature%20Engineering.jpeg)
 <img src="https://github.com/KutbuddinKhan/Machine-Learning-Mastery/blob/main/9_Feature_Engineering/Feature%20Engineering.jpeg" alt="Feature engineering diagram" />
+
 ## What is Feature Engineering?
 
 Feature Engineering is the process of selecting, modifying, or creating new input variables (features) from raw data to improve the performance of a machine learning model. It involves turning raw data into a format that helps a model make better predictions.
@@ -23,7 +23,7 @@ Here are some common techniques and examples of feature engineering:
 
 ### Example Workflow
 
-(F:\100_ML\9_Feature_Engineering\Flow Chart of FE.jpeg)
+<img src="https://github.com/KutbuddinKhan/Machine-Learning-Mastery/blob/main/9_Feature_Engineering/Flow%20Chart%20of%20FE.jpeg" alt="Flow chart of Feature Enginerring" />
 
 1. **Data Collection**: Gather raw data from various sources.
 2. **Feature Extraction**: Identify and extract relevant features from the raw data.
@@ -33,7 +33,6 @@ Here are some common techniques and examples of feature engineering:
 
 ---
 
----
 # 2. Missing Values Imputation
 
 Missing values imputation is a crucial data preprocessing step that involves filling in or replacing missing data points in a dataset. Incomplete data can lead to inaccurate or biased machine learning models, so imputing missing values helps ensure that the dataset is complete and usable for training and prediction.
@@ -42,7 +41,7 @@ Missing values imputation is a crucial data preprocessing step that involves fil
 
 Missing value imputation is the process of estimating and filling in missing data points in a dataset. When data points are missing, it can cause issues for machine learning algorithms that require complete datasets to function correctly. Imputation techniques "guess" or estimate the missing values to make the dataset whole again.
 
-(F:\100_ML\9_Feature_Engineering\Missing value imputation.jpeg)
+<img src="https://github.com/KutbuddinKhan/Machine-Learning-Mastery/blob/main/9_Feature_Engineering/Missing%20value%20imputation.jpeg" alt="Missing value Imputation" />
 
 ### Simple Ways to Impute Missing Values
 
@@ -123,15 +122,13 @@ Missing value imputation is a technique to handle incomplete data by making educ
 
 ---
 
----
-
 # 3. Handling Categorical Values
 
 Handling categorical values is an essential data preprocessing step in machine learning. Categorical data consists of categories or labels (such as animal types: Dog, Cat, Lion, etc.) that need to be converted into a numerical format for use in machine learning models. Since most models operate with numbers, translating these categories into numerical values is crucial for effective model training and prediction.
 
 ## What is Handling Categorical Values?
 
-(F:\100_ML\9_Feature_Engineering\Handling Categorical values.jpeg)
+<img src="https://github.com/KutbuddinKhan/Machine-Learning-Mastery/blob/main/9_Feature_Engineering/Handling%20Categorical%20values.jpeg" alt="Diagram of Handling Categorical values" />
 
 Handling categorical values involves converting data that consists of categories or labels into a numerical format that can be used by machine learning algorithms. This conversion allows models to process and analyze the data effectively. There are several methods to achieve this conversion, each with its advantages and disadvantages.
 
@@ -192,8 +189,6 @@ Handling categorical values is like translating descriptive words (like animal n
 
 ---
 
----
-
 # 4. Outlier Detection
 
 Outlier detection is an important data analysis technique used to identify data points that deviate significantly from the majority of the data in a dataset. These unusual values, known as outliers, can be much higher or lower than the typical range of values. Outliers may indicate errors in data collection or may provide unique but valuable information.
@@ -202,7 +197,7 @@ Outlier detection is an important data analysis technique used to identify data 
 
 Outlier detection involves identifying data points that differ significantly from other observations. Outliers may arise from various sources, including measurement errors or genuine anomalies. Detecting outliers is crucial for ensuring the quality of the data and for uncovering insights that might be hidden in the extreme values.
 
-(F:\100_ML\9_Feature_Engineering\Outliers Detections.jpeg)
+<img src="https://github.com/KutbuddinKhan/Machine-Learning-Mastery/blob/main/9_Feature_Engineering/Outliers%20Detections.jpeg" alt="Diagram of Outliers Detection" />
 
 ### Example
 
@@ -265,8 +260,6 @@ In this example, most animals have heights ranging from 0.4 to 1.6 meters. The g
 ### In Simple Words
 
 Outlier detection is like identifying the "odd one out" in your data. It helps you spot values that don’t fit the pattern of the rest, which could either be data entry mistakes or significant anomalies. Detecting these values ensures that the data is accurate and can reveal important insights.
-
----
 
 ---
 
@@ -353,8 +346,6 @@ Replace the example code with your dataset and features as needed. Adjust any de
 
 ---
 
----
-
 # 6. Feature Construction
 
 Feature construction is the process of creating new features from existing ones to enhance the performance of a machine learning model. It involves combining, modifying, or transforming existing data columns to create a feature that might better capture important information not fully represented by the original features.
@@ -400,9 +391,7 @@ Feature construction is like mixing ingredients to make a new dish. In the Titan
 
 ---
 
----
-
-# Feature Scaling
+# 7. Feature Scaling
 
 Feature scaling is the process of adjusting the range of your data so that different features contribute equally to a machine learning model. This is crucial because features with larger ranges can dominate those with smaller ranges, potentially affecting the model's performance and learning efficiency.
 
@@ -437,8 +426,6 @@ The MNIST dataset contains images of handwritten digits (0-9), where each image 
 ### In Simple Words
 
 Feature scaling is like resizing all the values in your data to be on the same level so that no feature overshadows the others. For the MNIST dataset, this means adjusting pixel values from a range of 0-255 to a range of 0-1 (or another standardized range). This helps the model treat all features equally, leading to better and faster learning.
-
----
 
 ---
 
