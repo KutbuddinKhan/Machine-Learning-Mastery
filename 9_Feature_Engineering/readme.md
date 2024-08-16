@@ -5,7 +5,7 @@
 
 Feature Engineering is a critical step in the machine learning pipeline that involves transforming raw data into features that better represent the underlying problem to the predictive models. The goal is to improve the performance and accuracy of machine learning models by creating new features or modifying existing ones.
 
-(F:\100_ML\9_Feature_Engineering\Feature Engineering.jpeg)
+(https://github.com/KutbuddinKhan/Machine-Learning-Mastery/blob/main/9_Feature_Engineering/Feature%20Engineering.jpeg)
 
 ## What is Feature Engineering?
 
